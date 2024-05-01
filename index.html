@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Guess The Word</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <h1><b>Guess The Word</b></h1>
+    <br />
+    <br />
+    <p>
+      "Guess the Word" is a game where one player thinks of a word, and the
+      other player (or players) tries to guess it.
+    </p>
+    <p>
+      The game continues until the guessers either correctly guess the word or
+      run out of attempts.
+    </p>
+    <br />
+    <br />
+    <input type="text" id="secretInput" placeholder="Enter Secret Word" />
+    <br />
+    <br />
+    <input
+      type="text"
+      id="wordInput"
+      placeholder="Enter Word List (comma-separated)"
+    />
+    <input type="number" id="guessInput" placeholder="Enter Allowed Guesses" />
+    <br />
+    <br />
+    <button id="submit">Submit</button>
+    <br />
+    <br />
+    <div id="output"></div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
